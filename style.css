@@ -1,0 +1,369 @@
+/* Estilo básico para o site */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #0073e6;
+    padding: 20px;
+    color: white;
+  }
+  
+  header .logo-container img {
+    max-width: 150px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .pricing .price-item {
+    background-color: #e9e9e9;
+    padding: 20px;
+    border-radius: 5px; 
+    margin: 10px 0;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  #contato {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .contact-options {
+    display: flex;
+    justify-content: space-around; /* Espaço entre os itens */
+    align-items: center; /* Alinha verticalmente os itens */
+    gap: 20px; /* Espaço entre os itens */
+  }
+  
+  .contact-item {
+    text-align: center; /* Centraliza o conteúdo de cada item */
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-icon {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 30px; /* Espaço entre a imagem e o texto */
+  }
+  #valores {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .service-pricing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .pricing-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pricing-card h3 {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .pricing-card p {
+    color: #555;
+    font-size: 1rem;
+  }
+  #servicos {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card h3 {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0073e6;
+    background: linear-gradient(to right, #0073e6, #00c6ff);
+    -webkit-background-clip: text; /* Faz o gradiente ser aplicado ao texto */
+    background-clip: text;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #0073e6;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
+  
+  h2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  @media (max-width: 768px) { /* Para tablets */
+    body {
+      font-size: 16px;
+    }
+  
+    .service-cards, .pricing-card, .service-card {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .contact-options {
+      display: flex;
+      flex-direction: column; /* Organiza os itens na vertical */
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contact-item {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .contact-link {
+      display: block;
+      text-align: center;
+    }
+  
+    /* Adiciona uma seta de navegação horizontal quando o conteúdo ultrapassar a largura da tela */
+    .scroll-container {
+      overflow-x: auto;
+      display: flex;
+      padding-bottom: 20px;
+      scroll-snap-type: x mandatory;
+    }
+  
+    .scroll-container .content-item {
+      scroll-snap-align: start;
+      flex: 0 0 auto;
+      margin-right: 20px;
+    }
+  
+    .scroll-container::-webkit-scrollbar {
+      height: 8px;
+    }
+  
+    .scroll-container::-webkit-scrollbar-thumb {
+      background-color: #0073e6;
+      border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) { /* Para smartphones */
+    body {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    .service-cards, .service-card, .pricing-card {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+    }
+  
+    .service-card h3 {
+      font-size: 1.25rem;
+    }
+  
+    .contact-options {
+      flex-direction: column; /* Organiza os ícones de contato na vertical */
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contact-item {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Seta de navegação (aparece quando o conteúdo for maior que a tela) */
+  .scroll-arrow {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  .scroll-arrow:hover {
+    background-color: #00c6ff;
+  }
+  
+  /* Exibe a seta quando o conteúdo está se estendendo além da tela */
+  .scroll-container:after {
+    content: '→';
+    font-size: 2rem;
+    color: #0073e6;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+  }
+  
+  .scroll-container.show-arrow:after {
+    display: block;
+  }
+  
